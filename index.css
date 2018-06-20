@@ -1,0 +1,45 @@
+#container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#display {
+	text-align: center;
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+#menu {
+	width: 45%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.fas {
+	opacity: 0.5;
+	transition: opacity 0.4s ease-in-out;
+}
+
+.fas:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.inc {
+	color: green;
+}
+
+.dec {
+	color: red;
+}
+
+.save {
+	color: blue;
+}
+
+.reset {
+	color: purple;
+}

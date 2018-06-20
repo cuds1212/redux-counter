@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Redux Counter</title>
+
+	<!-- Font Awesome -->
+	<link 
+		rel="stylesheet" 
+		href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+		integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" 
+		crossorigin="anonymous"
+	>
+	<!-- Redux -->
+	<script 
+		type="text/javascript" 
+		src='https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.0/redux.js'
+	></script>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+
+	<!-- Local CSS stylesheet -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div id='container'>
+
+		<div id='display'>
+			<h1>current count: <span id='count'>0</span></h1>
+		</div>
+
+		<div id='menu'>
+			<i class="fas fa-plus-circle fa-3x inc"></i>
+			<i class="fas fa-minus-circle fa-3x dec"></i>
+			<i class="fas fa-cloud-download-alt fa-3x save"></i>
+			<i class="fas fa-sync-alt fa-3x reset"></i>
+		</div>
+	</div>
+
+	<!-- Local JS script -->
+	<script type="text/javascript" src='index.js'></script>
+</body>
+</html>
